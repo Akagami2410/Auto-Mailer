@@ -1,0 +1,35 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Email & Subs Handler",
+  "keywords": [
+    "automation"
+  ],
+  "homepage": "https://github.com/Akagami2410/Email-Subs#readme",
+  "bugs": {
+    "url": "https://github.com/Akagami2410/Email-Subs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akagami2410/Email-Subs.git"
+  },
+  "license": "ISC",
+  "author": "Prasanjeet",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "http-proxy-middleware": "^3.0.5",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2",
+    "mysql2": "^3.16.2",
+    "nodemailer": "^7.0.12",
+    "nodemon": "^3.1.11"
+  }
+}
